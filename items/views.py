@@ -10,7 +10,7 @@ from .models import Item
 
 
 stripe.api_key = settings.STRIPE_SECRET_KEY
-YOUR_DOMAIN = 'http://127.0.0.1:8000'
+YOUR_DOMAIN = 'https://stripe-django-production.up.railway.app'
 
 
 class SuccessView(TemplateView):
